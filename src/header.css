@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background: black;
+}
+
+label.logo {
+    color: goldenrod;
+    line-height: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 100px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav a {
+    color: goldenrod;
+    font-size: 8px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+nav #icon {
+    color: goldenrod;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    margin-right: 40px;
+    display: none;
+}
